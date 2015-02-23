@@ -34,8 +34,8 @@
                   :pathname "syscall"
                   :depends-on ("syscall")
                   :components
-                  ((:file "cffi" :depends-on ("types"))
-                   (cffi-grovel:grovel-file "types"))))))
+                  ((:file "cffi" :depends-on ("grovel"))
+                   (cffi-grovel:grovel-file "grovel"))))))
   :description "Low-level UNIX socket library"
   :long-description
   #.(with-open-file (stream (merge-pathnames
