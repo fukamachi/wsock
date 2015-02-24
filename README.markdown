@@ -1,6 +1,6 @@
 # Wsock
 
-Wsock is low-level UNIX socket library originally written for [Woo](https://github.com/fukamachi/woo), a web server.
+Wsock is a low-level UNIX socket library originally written for [Woo](https://github.com/fukamachi/woo), a web server.
 
 ## Author
 
